@@ -1,6 +1,6 @@
 # raflow模型的pytorch实现
 
-参照官方代码[radflow](https://github.com/alasdairtran/radflow)以及自己阅读论文的理解，用pytorch实现了radflow。因为是按照自己的理解实现，代码肯定会有一些和源代码不一样的地方，如果有发现请告知我，感谢。
+参照官方代码[radflow](https://github.com/alasdairtran/radflow)以及自己阅读论文的理解，用pytorch实现了radflow。另外将复现结果应用在交通流量数据上。因为是按照自己的理解实现，代码肯定会有一些和源代码不一样的地方，如果有发现请告知我，感谢。
 
 ```
 @InProceedings{Tran2021Radflow,
@@ -25,7 +25,7 @@ python main.py
 
 ## 数据
 
-数据使用的是PEMS数据
+数据使用的是交通流数据PEMS
 
 ## 依赖
 
